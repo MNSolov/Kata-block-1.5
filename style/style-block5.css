@@ -153,8 +153,10 @@
     transition-duration: 0.8s;
 }
 
-@media (min-width: 768px) {
-    .brands__slider {
+
+@media (width >= 768px) {
+
+   .brands__slider {
         display: none;
     }
 
