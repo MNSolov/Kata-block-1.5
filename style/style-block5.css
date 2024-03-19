@@ -149,8 +149,14 @@
     transition-duration: 0.8s;
 }
 
+.brands__slider {
 
-@media (min-width: 768px) {
+    height: 135px;
+    display: none;
+}
+
+
+@media (width >= 768px) {
 
    .brands__slider {
         display: none;
