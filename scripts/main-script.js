@@ -9,6 +9,7 @@ const swiper = new Swiper('.brands__slider', {
     spaceBetween: 10,             //Задаем гэп между слайдами
     slidesPerView: 1.1,           //Показываем часть следующего слайда
     centeredSlides: false,        //Текущий слайд не центрируем
+
   });
 
 //Делаем обработку кнопки "Показать всё"

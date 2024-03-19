@@ -65,11 +65,7 @@
     background-image: linear-gradient(to right, #F8F8F8 0%, #ffffff 100%);
 }
 
-.brands__slider {
-    width: 100%; 
-    height: 135px;
-    
-}
+
 .swiper-slide {
     padding: 20px 10px;
 }
@@ -154,9 +150,17 @@
 }
 
 
-@media (width >= 768px) {
+@media (min-width: 768px) {
 
    .brands__slider {
+        display: none;
+    }
+
+    .swiper-wrapper {
+        display: none;
+    }
+
+    .swiper-slide {
         display: none;
     }
 
